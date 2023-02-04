@@ -61,7 +61,7 @@ function App() {
                     {tempo.location.name}/{tempo.location.region}
                   </p>
                   <h3>Hoje o tempo está: {tempo.current.condition.text}</h3>
-                  <p className="lead">Temp: {tempo.current.temp_c}</p>
+                  <p className="lead">Temp: {tempo.current.temp_c}°C</p>
                 </div>
               </div>
             </div>
