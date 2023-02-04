@@ -1,7 +1,7 @@
 import { useState } from "react";
 
 function App() {
-  const [city, setCity] = useState("Mossoro");
+  const [city, setCity] = useState("Natal");
   const [tempo, setTempo] = useState(null);
 
   const handleChange = (e) => {
@@ -18,6 +18,7 @@ function App() {
         }
       })
       .then((data) => {
+        console.log(data);
         setTempo(data);
       });
   };
@@ -30,14 +31,14 @@ function App() {
         </a>
       </nav>
 
-      <main className="container">
-        <div className="jumbotron">
+      <main className="container ">
+        <div className="jumbotron d-flex align-items-center d-flex flex-column">
           <h1>Consulte a previsão do tempo</h1>
           <p className="lead">
             Digite o nome da cidade que deseja consultar e clique em pesquisar
           </p>
-          <div className="row mb-4">
-            <div className="col-md-6">
+          <div className="row mb-4 d-flex align-items-center d-flex flex-column">
+            <div className="col-md-50">
               <input
                 className="form-control"
                 value={city}
@@ -51,18 +52,24 @@ function App() {
 
           {tempo ? (
             <div>
-              <div className="mt-4 d-flex align-items-center">
+              <div className="mt-4 d-flex align-items-center d-flex flex-column">
                 <div>
                   <img src={tempo.current.condition.icon} alt="" />
                 </div>
                 <div>
-                  <h3>Hoje o dia está: {tempo.current.condition.text}</h3>
+                  <p>
+                    {tempo.location.name}/{tempo.location.region}
+                  </p>
+                  <h3>Hoje o tempo está: {tempo.current.condition.text}</h3>
                   <p className="lead">Temp: {tempo.current.temp_c}</p>
                 </div>
               </div>
             </div>
           ) : null}
         </div>
+        <p className="lead mt-4 d-flex align-items-center d-flex flex-column">
+          Em construção... ⚙
+        </p>
       </main>
     </div>
   );
