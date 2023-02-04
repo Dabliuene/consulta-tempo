@@ -18,7 +18,6 @@ function App() {
         }
       })
       .then((data) => {
-        console.log(data);
         setTempo(data);
       });
   };
