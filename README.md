@@ -1,12 +1,13 @@
-# Projeto: Consulta do tempo
-
-### O Projeto consiste em uma aplicação simples que faz o consumo de um API chamada API WEATHER, onde o usuário indica uma localização e dessa forma consegue informações sobre o tempo.
-
+# Descrição do Projeto
+```
+O Projeto consiste em uma aplicação simples que faz o consumo de um API chamada API WEATHER, onde o usuário 
+indica uma localização e dessa forma consegue informações sobre o tempo.
+```
 > Prévia do Projeto:
 
 ![imagem](.github/image/preview.JPG)
 
-🔗 [Clique aqui para acessar!](https://dabliuene.github.io/consulta-tempo/)
+🔗 [Clique aqui para acessar!](https://dabliuene.github.io/consulta-tempo/) (Em manutenção...)
 
 ## 🧰 Tecnologias
 
