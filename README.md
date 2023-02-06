@@ -7,6 +7,7 @@
 ![imagem](.github/image/preview.JPG)
 
 🔗 [Clique aqui para acessar!](https://dabliuene.github.io/consulta-tempo/)
+(Em manunteção...)
 
 ## 🧰 Tecnologias
 
