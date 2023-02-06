@@ -7,7 +7,7 @@ usuário indica uma localização e dessa forma consegue informações sobre o t
 
 ![imagem](.github/image/preview.JPG)
 
-🔗 [Clique aqui para acessar!](https://dabliuene.github.io/consulta-tempo/) (Em manutenção...)
+🔗 [Clique aqui para acessar!](https://dabliuene.github.io/consulta-tempo/)
 
 ## 🧰 Tecnologias
 
